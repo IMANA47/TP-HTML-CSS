@@ -12,6 +12,35 @@ body{
   height: 100vh;
   overflow: hidden;
 }
+nav body{
+  margin-bottom: 200px;
+}
+/*Navigation*/
+nav{
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 10%;
+
+}
+nav ul li{
+list-style-type: none;
+padding: 5px 10px;
+margin-top: 2px;
+
+}
+nav ul li a
+{
+font-size: 20px;
+color: black;
+text-decoration: none; 
+font-weight: bold;
+border-radius: 3px solid red;
+}
+nav ul li a:hover{
+  color: blue;
+  transform: .3s;
+}
+
 .center{
   position: absolute;
   top: 50%;

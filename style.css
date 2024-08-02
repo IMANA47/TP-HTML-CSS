@@ -5,27 +5,32 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  padding-left: 50px;
+
+}
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40PX;
+  padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
+
 }
 nav ul li{
 list-style-type: none;
 display: inline-block;
 padding: 5px 10px;
 margin-top: 2px;
-}
 
+}
 nav ul li a
 {
   font-size: 20px;
 color: black;
 text-decoration: none; 
-font-weight: bold; 
+font-weight: bold;
 }
 nav ul li a:hover{
   color: blue;
